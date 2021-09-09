@@ -4,19 +4,19 @@ using System.Text;
 
 namespace Calculo_circunferencia_volume_circulo
 {
-   public class Calculadora
+    class Calculadora
    {
         //Dando valor de PI.
-        public double Pi = 3.14;
+        public static double Pi = 3.14;
 
         //Calculando Circunferência.
-        public double Circunferencia(double r)
+        public static double Circunferencia(double r)
         {
             return 2.0 * Pi * r;
         }
 
         //Calculando Volume.
-        public double Volume(double r)
+        public static double Volume(double r)
         {
             return 4.0 / 3.0 * Pi * r * r * r;
         }
